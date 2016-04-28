@@ -45,6 +45,9 @@
 		36182A0C1AF265AC00DFEC42 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36182A0B1AF265AC00DFEC42 /* CoreMedia.framework */; };
 		36182A0E1AF265B300DFEC42 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36182A0D1AF265B300DFEC42 /* AudioToolbox.framework */; };
 		36182A101AF265B900DFEC42 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36182A0F1AF265B900DFEC42 /* AVFoundation.framework */; };
+		36C3C2451CD2978200FB33E0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C3C2441CD2978200FB33E0 /* Accelerate.framework */; };
+		36C3C2471CD2978D00FB33E0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C3C2461CD2978D00FB33E0 /* OpenGLES.framework */; };
+		36C3C2491CD297CD00FB33E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C3C2481CD297CD00FB33E0 /* CoreGraphics.framework */; };
 		36CD568D1CCFFDED00F631B5 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD568B1CCFFDED00F631B5 /* libopencv_core.a */; };
 		36CD568E1CCFFDED00F631B5 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD568C1CCFFDED00F631B5 /* libopencv_imgproc.a */; };
 		AA747D9F0F9514B9006C5449 /* ComAshishCardioios_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComAshishCardioios_Prefix.pch */; };
@@ -87,6 +90,9 @@
 		36182A0B1AF265AC00DFEC42 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		36182A0D1AF265B300DFEC42 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		36182A0F1AF265B900DFEC42 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		36C3C2441CD2978200FB33E0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		36C3C2461CD2978D00FB33E0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		36C3C2481CD297CD00FB33E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		36CD568B1CCFFDED00F631B5 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
 		36CD568C1CCFFDED00F631B5 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComAshishCardioios_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComAshishCardioios_Prefix.pch; sourceTree = SOURCE_ROOT; };
@@ -99,10 +105,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C3C2491CD297CD00FB33E0 /* CoreGraphics.framework in Frameworks */,
+				36C3C2471CD2978D00FB33E0 /* OpenGLES.framework in Frameworks */,
+				36182A0A1AF265A700DFEC42 /* CoreVideo.framework in Frameworks */,
+				36C3C2451CD2978200FB33E0 /* Accelerate.framework in Frameworks */,
 				36182A101AF265B900DFEC42 /* AVFoundation.framework in Frameworks */,
 				36182A0E1AF265B300DFEC42 /* AudioToolbox.framework in Frameworks */,
 				36182A0C1AF265AC00DFEC42 /* CoreMedia.framework in Frameworks */,
-				36182A0A1AF265A700DFEC42 /* CoreVideo.framework in Frameworks */,
 				36182A081AF265A200DFEC42 /* MobileCoreServices.framework in Frameworks */,
 				36CD568D1CCFFDED00F631B5 /* libopencv_core.a in Frameworks */,
 				36182A061AF2659C00DFEC42 /* QuartzCore.framework in Frameworks */,
@@ -141,6 +150,9 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36C3C2481CD297CD00FB33E0 /* CoreGraphics.framework */,
+				36C3C2461CD2978D00FB33E0 /* OpenGLES.framework */,
+				36C3C2441CD2978200FB33E0 /* Accelerate.framework */,
 				36182A0F1AF265B900DFEC42 /* AVFoundation.framework */,
 				36182A0D1AF265B300DFEC42 /* AudioToolbox.framework */,
 				36182A0B1AF265AC00DFEC42 /* CoreMedia.framework */,
