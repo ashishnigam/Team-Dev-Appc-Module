@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: socketmoduleandroid
+author: Ashish Nigam
+license: Copy Right KaMaAs Technology
+copyright: @KaMaAs Technology
+
+# these should not be edited
+name: socketmoduleandroid
+moduleid: com.ashish.socketmodule
+guid: 97d3f2d7-5451-449a-9a3d-e6e1ecb42c0b
+platform: android
+minsdk: 4.0.0.GA

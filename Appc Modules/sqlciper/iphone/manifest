@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: sqlciper
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: sqlciper
+moduleid: com.ashish.sqlciper
+guid: bcafe7d3-dd69-4046-ae53-a98d8f720e77
+platform: iphone
+minsdk: 4.1.0.GA

@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: SocketModule
+author: Ashish Nigam
+license: Copy Right KaMaAs Technology.
+copyright: @KaMaAs Technology
+
+# these should not be edited
+name: SocketModule
+moduleid: com.ashish.socketmodule
+guid: 7ab29e3e-5e93-436c-b2df-c78bb2d98e92
+platform: iphone
+minsdk: 4.0.0.GA

@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.1.0
+apiversion: 2
+architectures: arm64 armv7 i386 x86_64
+description: cardioios
+author: Ashish Nigam
+license: MIT
+copyright: Copyright (c) 2015 by Ashish Nigam
+
+# these should not be edited
+name: cardioios
+moduleid: com.ashish.cardioios
+guid: 1cf86fa8-ba7e-4502-9660-03f43b48410a
+platform: iphone
+minsdk: 5.2.2.GA
+architectures: arm64 armv7 i386 x86_64

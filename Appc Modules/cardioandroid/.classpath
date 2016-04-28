@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="android/src"/>
+	<classpathentry kind="src" path="android/build/.apt_generated"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Applications/android-sdk-macosx/platforms/android-16/android.jar"/>
+	<classpathentry kind="lib" path="/Applications/android-sdk-macosx/add-ons/addon-google_apis-google-16/libs/maps.jar"/>
+	<classpathentry kind="lib" path="android/lib/card.io.jar"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Applications/android-sdk-macosx/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar"/>
+	<classpathentry kind="lib" path="/Applications/android-sdk-macosx/tools/support/annotations.jar"/>
+	<classpathentry kind="lib" path="/Users/ashishn/Library/Application Support/Titanium/mobilesdk/osx/3.5.1.GA/android/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="/Users/ashishn/Library/Application Support/Titanium/mobilesdk/osx/3.5.1.GA/android/kroll-apt.jar"/>
+	<classpathentry kind="lib" path="/Users/ashishn/Library/Application Support/Titanium/mobilesdk/osx/3.5.1.GA/android/kroll-common.jar"/>
+	<classpathentry kind="lib" path="/Users/ashishn/Library/Application Support/Titanium/mobilesdk/osx/3.5.1.GA/android/kroll-v8.jar"/>
+	<classpathentry kind="lib" path="/Users/ashishn/Library/Application Support/Titanium/mobilesdk/osx/3.5.1.GA/android/titanium.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

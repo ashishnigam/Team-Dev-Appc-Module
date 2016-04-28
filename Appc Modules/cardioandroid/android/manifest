@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: cardioandroid
+author: Ashish Nigam
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: cardioandroid
+moduleid: com.ashish.cardioandroid
+guid: 52fe6a71-9891-4ee2-a502-58a1d6606819
+platform: android
+architectures: arm64-v8a armeabi armeabi-v7a mips mips64 x86 x86_64
+minsdk: 3.5.1.GA
