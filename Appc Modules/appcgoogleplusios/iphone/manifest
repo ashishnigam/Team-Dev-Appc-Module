@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.7.1
+apiversion: 2
+description: This is Google plsu use in Appc titanium SDK.
+author: Ashish Nigam
+license: KaMaAs Tech has all rights and distribution of this code, please take written permission before using or distributing this module code.
+copyright: KaMaAs Technology & Services Private Limited
+
+# these should not be edited
+name: appcgoogleplusios
+moduleid: com.ashishnigam.appcgoogleplus
+guid: dcbb981b-72d4-473f-8664-0bfe988a4cee
+platform: iphone
+minsdk: 5.0.2.GA
+architectures: armv7 arm64 i386 x86_64

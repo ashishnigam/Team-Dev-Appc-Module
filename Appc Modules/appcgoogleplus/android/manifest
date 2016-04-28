@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.7.1
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: This is Google Plus services use in Appc titanium SDK.
+author: Ashish Nigam com.ashishnigam.appcgoogleplus
+license: KaMaAs Tech has all rights and distribution of this code, please take written permission before using or distributing this module code.
+copyright: KaMaAs Technology & Services Private Limited
+
+# these should not be edited
+name: appcgoogleplus
+moduleid: com.ashishnigam.appcgoogleplus
+guid: 80dff7ba-efb5-403b-8c20-8ad23236a298
+platform: android
+minsdk: 5.0.2.GA
